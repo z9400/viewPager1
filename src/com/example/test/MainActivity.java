@@ -39,7 +39,6 @@ public class MainActivity extends Activity {
 		titles.add("¸ü¶à") ;
 		
 		
-//		LayoutInflater inflater = LayoutInflater.from(this) ;
 		LayoutInflater inflater = getLayoutInflater() ;
 		views = new ArrayList<View>() ;
 		views.add(inflater.inflate(R.layout.fragment_1, null)) ;
